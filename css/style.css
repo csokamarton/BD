@@ -9,6 +9,7 @@ body {
 body {
   margin: 0;
   background: #ee9ca7;
+  overflow-x: hidden;
 }
 
 #cake {
@@ -140,40 +141,3 @@ body {
   height: 100px;
 }
 
-#present-container {
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.gift-top {
-  background-color: #e9c46a;
-  width: 170px;
-  height: 40px;
-}
-
-.gift-top::before{
-  content:"";
-  position: absolute;
-  width: 25px;
-  height: 100px;
-  background-color: #e76f51;
-  left:45vw;
-}
-
-.gift-top::after {
-  content:"";
-  position: absolute;
-  width: 5px;
-  height: 0;
-  border-bottom: 30px solid #e76f51;
-  border-top: 30px solid #e76f51;
-  border-left: 0px solid transparent;
-  border-right: 30px solid transparent;
-  transform: rotate(-90deg);
-  left:45vw;
-  top: 57vh;
-  z-index: -1;
-}
