@@ -34,20 +34,6 @@ h1 {
     animation-delay: 2s;
 }
 
-
-.banner {
-    margin: 0;
-    background-image: url("../img/crop-1024x439.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    max-width: 100%;
-    min-height: 50%;
-}
-
 footer{
     background-color: #dc3545;
     display: flex;
@@ -60,7 +46,7 @@ footer{
 }
 
 .parallax1 {
-    background-image: url("/img/crop-1024x439.jpg");
+    background-image: url("../img/crop-1024x439.jpg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -69,7 +55,7 @@ footer{
 }
 
 .parallax2 {
-    background-image: url("/img/bpPark.jpeg");
+    background-image: url("../img/bpPark.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +64,7 @@ footer{
 }
 
 .parallax3 {
-    background-image: url("/img/map.png");
+    background-image: url("../img/map.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
